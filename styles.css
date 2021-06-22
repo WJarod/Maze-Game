@@ -1,0 +1,107 @@
+body {
+    background-image: url("image/z4kwb7.jpeg");
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+#laby{
+    margin: auto;
+    border-collapse: collapse;
+    border: black solid 8px;
+}
+
+tr {
+    margin: 0;
+}
+
+#timer {
+    display: block;
+    width: 50px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 47%;
+}
+
+#mur{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url("image/mur_pierre.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#chemin{
+    background-color: white;
+    background-image: url("image/sol.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#etage{
+    background-color: greenyellow;
+    background-image: url("image/teleporteur2.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#piege{
+    background-color: blue;
+    background-image: url("image/vortex5.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: transparent;
+}
+
+#perso{
+    background-image: url("image/adam.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#entrer{
+    background-image: url("image/porte.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#fin{
+    background-color: violet;
+    background-image: url("image/teleporteur2.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+#btnStart{
+    color: rgb(153, 153, 153);
+    background-image: url(/image/black-canvas-fabric-texture-vector.jpeg);
+    background-size: cover;
+    width: 500px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    border: none;
+    font-size: 100px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px 2px rgb(153, 153, 153);
+;
+}
+
+#btnStart:hover{
+    box-shadow: 5px 5px 5px 5px rgb(153, 153, 153);
+}
+
+h1{
+    display: block;
+    margin-left: 30%;
+    color: white;
+}
+
